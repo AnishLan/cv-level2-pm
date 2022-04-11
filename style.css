@@ -1,0 +1,68 @@
+h1 {
+	color: #A56B49;
+	font-size: 50px;
+}
+h2 {
+	color: #D68958; 
+}
+
+body {
+	background-color: rgb(130,130,130);
+}
+
+div{
+	background-color: white;
+	text-align: center;
+	width: 60%; 
+	padding: 16px;
+	margin: 24px auto;
+	border-radius: 5px;
+	box-shadow: 12px 9px 7px 5px; 
+}
+
+#avatar {
+	width: 150px;
+	border-radius: 60%;
+	border: 1px solid black;
+}
+
+.button-blue{
+	background-color: blue;
+	color: white;
+	padding: 16px;
+	border-radius: 5px;
+	border: 1px blue solid;
+	text-align: center;
+	display: block;
+	width: 30%;
+	margin: 8px auto;
+	transition: 1s;
+}
+
+.button-blue:hover{
+background-color: white;
+color: blue;
+transition: 1s;
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0;
+}
+
+.list-inline li{
+	display: inline;
+	font-size: 56px;	
+}
+
+.list-inline a{
+	color: rgb(0,0,0,0.4);
+	margin: 8px;
+
+}
+
+.list-inline a:hover{
+	color: black;
+	font-size: 60px;
+	transition: 1s;
+}
